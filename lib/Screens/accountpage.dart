@@ -41,14 +41,23 @@ class _AccountPageState extends State<AccountPage> {
                         child: Column(
                           children: [
                             Text(
-                              "SLV ELECTRICALS",
+                              "SARATH KRISHNAN P V",
                               style: GoogleFonts.poppins(fontSize: 18),
                             ),
-                            Text(
-                              "Edit Buisiness Details",
-                              style: TextStyle(
-                                color: Colors.blue,
-                                decoration: TextDecoration.underline,
+                            Align(
+                              alignment: Alignment.centerLeft,
+                              child: Row(
+                               
+                                children: [
+                                  Icon(Icons.edit,size: 17,),
+                                  Text(
+                                    "Edit Buisiness Details",
+                                    style: TextStyle(
+                                      color: Colors.blue,
+                                      decoration: TextDecoration.underline,
+                                    ),
+                                  ),
+                                ],
                               ),
                             ),
                           ],
